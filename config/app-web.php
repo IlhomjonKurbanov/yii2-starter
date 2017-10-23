@@ -17,6 +17,8 @@ $config = [
 		'@config'=> '@app/../config',
 		'@bower' => '@vendor/bower-asset',
 		'@npm'   => '@vendor/npm-asset',
+		'@vendor/justcoded/yii2-rbac' => '@app/../ext/rbac',
+		'@vendor/justcoded/yii2-settings' => '@app/../ext/settings',
 	],
 	'modules' => [
 		'admin' => 'app\modules\admin\Module',
